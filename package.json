@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-backend",
+  "version": "1.0.0",
+  "description": "Whatsapp MERN Stack Clone Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "socket.io": "^4.5.2"
+  }
+}
